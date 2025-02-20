@@ -1,0 +1,20 @@
+{
+  "name": "orange-sync",
+  "version": "1.0.0",
+  "main": "check.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tracker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.2.1",
+    "pushover-notifications": "^1.2.3"
+  },
+  "type": "module",
+  "keywords": [],
+  "description": "This Node.js script automates tracking updates from the Orange SAV tracking service using Puppeteer. It logs activities, handles form submissions, retrieves tracking updates, and sends notifications via Pushover.",
+  "devDependencies": {}
+}
